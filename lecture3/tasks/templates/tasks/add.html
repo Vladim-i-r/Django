@@ -6,7 +6,7 @@
     {% csrf_token %}
     {{ form }}
     {%comment%}<input type="text" name="task">{%endcomment%}
-    <input type="submit">
+    <input type="submit" value="Submit">
 </form>
 <a href="{% url 'tasks:index' %}">View Tasks</a>
 {% endblock %}
